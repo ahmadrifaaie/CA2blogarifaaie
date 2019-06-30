@@ -24,8 +24,8 @@
                 <h1> Planning </h1><br><br>
                 <p>
 				I first started experimenting with potentiometers on TinkerCAD, initially making an idea about using potentiometer for my CA2, however, I decided to make use of
-				the mini project my friend Sorenson and I did over the long holidays after the end of our 1.2 Semester. I changed from a servo motor to a DC motor in order to 
-				accomodate the function of a transistor which helps to control the actuator which is the DC motor. The initial function of such a circuit would be to help design
+				the mini project my friend Sorenson and I did over the long holidays after the end of our 1.2 Semester which is a servo motor controlled by a rain sensor.
+				I changed from a servo motor to a DC motor in order to accomodate the function of a transistor which helps to control the actuator which is the DC motor. The initial function of such a circuit would be to help design
 				an automated system for trains or even automated cars in the near future to drive slower in rainy weather. Due to the lubrication caused by the rainwater be it on
 				the train tracks or road, this helps to ensure the user's safety by comprimising the speed of the vehicle as more rain begins to pour down. I also planned to fit in an 
 				LED in order to warn the train/car driver that the system is starting to slow down in order to counter the rainy weather. 
@@ -36,11 +36,14 @@
 				<p>
 				During the TinkerCAD Simulation, I encountered issues such as having high negative rpm which is very unusual and after some help from friends in EA, they simply
 				added a flyback diode(1N4001) to help focus the direction of the voltage which decreased the amount of RPM and making the reading become positive, which gave me 
-				confidence that my idea could work. As a result of this, I went out to start working on my idea using a breadboard.<br><br>
+				confidence that my idea could work. 
 				
-				<img src="ExpCA2.png" alt="Overall View" height="400px" width="600px"><br>
+				<img src="ExpCA2.png" alt="Overall TinkerCAD View" height="400px" width="600px"><br>
 				
-				
+				Judging from the circuit, I may need to buy some components from Continental Electronics in order to make my circuit as some of them are not available in the FabLab.
+				Hence, I needed to get started on work quickly and buy those components with some spares, should they fail during testing. However, this project in my opinion, is so
+				far a workable and potentially useful idea in the future considering upcoming technologies such as automated driverless cars which could use systems such as this
+				in order to ensure the safety of the user.
 				
 				</p>
 				<h1> Breadboard Testing</h1><br><br>
@@ -62,7 +65,9 @@
 				<img src="breadboardtop.jpg" alt="Top View" height="400px" width="600px"><br>
 				Overall Top View<br><br>
 
-                				
+                As I began to start work and gather materials for soldering, some of my friends from EA warned me that the soldering process in this project was going to be rather 
+				tedious. I took that advice with as much caution as I can. With the help and advice of some of my friends from EEE who are more experienced in soldering components
+				to stripboard,
 				
 				
 				
@@ -77,27 +82,35 @@
 				accomodate this error. As a result, I was able to get my DC Motor running but my LED was nowhere near showing any lighting and the RPM of the DC Motor was too much despite
 				the installment of the 1N4001 diode. Hence, I needed to design another idea as soon as possible with the little time I had left.<br><br>
 				
-				<img src="breadboardbase.jpg" alt="Breadboard View" height="400px" width="600px"><br>
+				<img src="soldeerold.jpg" alt="Soldering 1" height="400px" width="600px"><br>
+				Topside of Project in Progress<br><br>
 				
-				<img src="breadboardbase.jpg" alt="Breadboard View" height="400px" width="600px"><br>
+				<img src="backoldsolder.jpg" alt="Soldering 2" height="400px" width="600px"><br>
+				Backside of Project in Progress<br><br>
 				
-				<img src="breadboardbase.jpg" alt="Breadboard View" height="400px" width="600px"><br>
+				However, I ran through some issues regarding	
 				
-				<img src="breadboardbase.jpg" alt="Breadboard View" height="400px" width="600px"><br>
+				<img src="breadboardbase.jpg" alt="Soldering 3" height="400px" width="600px"><br>
+				
+				<img src="breadboardbase.jpg" alt="Soldering 4" height="400px" width="600px"><br>
 				
 				After a morning waking up with a fever and a cold, I rushed off to work as I try to meet the deadline. I asked friends all around for advices and through their help,
-				I was able to get my circuit working, however due to a soldering mishap, my LED could not respond and as I had no spare LEDs or stripboards around, I have to present
-				this product with just the DC Motor being controlled by the rain sensor.<br><br>
+				I was able to get my circuit working, however due to a soldering mishap which caused a lot of discontinuities in my circuit, my LED could not respond and as I had 
+				no spare LEDs or stripboards around, I have to present this product with just the DC Motor being controlled by the rain sensor.<br><br>
 				
 				
 				</p>
 				<h1>Final Product(For Marking)</h1><br><br>
 				<p>
+				<img src="soldertestnew.jpg" alt="Final Product Top" height="400px" width="600px"><br>
+				
+				<img src="backsoldernewtest.jpg" alt="Final Product Bottom" height="400px" width="600px"><br>
+				
 				<a href="https://youtu.be/K4pgTius3p8">Video of Final Soldered Product CA2</a><br><br>
 				After quite a while, I managed to solder this much of my product despite the shortcomings of the LED, being able to show the DC Motor being controlled by the rain
 				sensor was what I believe to be a top priority in ensuring that my CA2 product is a success. Personally, I feel that it is incomplete due to the absence of the LED
-				acting as a warning system to warn the driver that the train is slowing down, I hope that in the near future, I could revisit this project and eventually make it grow
-				into a commercially viable idea.<br><br>
+				acting as a warning system to warn the operator that the train is slowing down, I hope that in the near future, I could revisit this project and eventually make it grow
+				into a commercially viable idea in the near future.<br><br>
 				
 				Below I have attached my source code for the Arduino Software.
 				<a href="CA2code.ino">CA2 Source Code Arduino</a>
