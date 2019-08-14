@@ -27,14 +27,16 @@
 			
 			<h1>CA3 Project:Smart Response Gadget for Elderly living alone(ElderTrack)</h1>
 				Done by Ahmad Rifaaie Bin Mohamed Ali, Diploma in Aeronautical Engineering, DARE/FT/2A/05 <br>
-				and Cai Yanru,Diploma in Electronic Engineering, DEEE/FT/2A/15<br>
+				and Cai Yanru, Diploma in Electronic Engineering, DEEE/FT/2A/15<br>
 				Students from Singapore Polytechnic.<br><br><br>
 				<h2>Design Thinking and Project Planning Stage</h2><br>
 				Initially me and Yanru had both come up with different ideas on what we were going to do for our CA3. We initially planned to do a resistor sorter which would ease off
 				the process of sorting out resistors found through the lab and would install a straightening system to straighten out the wires, so they can be used by other students.
 				However, the system to design such a complex idea would be very troublesome and we both agreed to drop it. Instead, we both decided to work on an IoT system that can
-				be used by nurses to provide help to the elderly in the nursing home, without requiring the elderly to leave their room if they are too sick or are unable to do so. Through
-				the help of Mr Teo Shin Jen, we were introduced to the world of IoT which we had ZERO experience in. But we slowly got the gist of it and started practicing our newly found 
+				be used by nurses to provide help to the elderly in the nursing home, without requiring the elderly to leave their room if they are too sick or are unable to do so. <br><br>
+				
+				
+				Through the help of Mr Teo Shin Jen, we were introduced to the world of IoT which we had ZERO experience in. But we slowly got the gist of it and started practicing our newly found 
 				skill in IoT through tutorials provided by Mr Teo through the AWS and online instructables done by others in order to further enhance our knowledge. I personally tried to do
 				an IoT doorlock system and the Noisy Nancy instructables which was done by an SP student.<br><br>
 				
@@ -42,6 +44,7 @@
 				about the limitation of implementing our smart system in solely rooms which doesn't cover the elderly when they are outside. We both agreed to work on a hand held gadget which is
 				strapped on the elderly which if they need assistance, they can call for help by presssing on a touch/fingerprint sensor to send an SMS to a nearby nurse to assist them. This
 				allows the elderly to be covered fully throughout the elderly home.<br><br>
+				
 				
 				After a series of discussion between Yuan Ru and me, we decided to repurpose our product to focus solely on the elderly who live alone in their HDBs, this is due to how the elderly
 				in nursing homes are well taken care of and are always being watched. These reasons showed us that elderly who live alone in their own HDB units require more assistance than those 
@@ -60,10 +63,21 @@
 				working with the application was a bit too difficult for us considering our experience in IoT. But Yanru found a different application which was the IFTTT software which made our job of designing the SMS system 
 				easier. And after testing out solely with the NodeMCU to see if it could send an SMS to our phones, it worked! Then we moved on to our next step which was to integrate the touch sensor into our current circuit.<br><br>
 				
+				<img src="SMScircuit.JPG" alt="SMS System Circuit" height="400px" width="600px"><br><br>
+				
 				Integrating the touch sensor into the circuit was a lot of work, as we were both unsure of how to treat it like a switch to trigger the SMS response to our phones. After consulting with Mr Teo, a couple of EA seniors
 				and online tutorials that we found online. We finally made a breakthrough as our touch sensor was now able to be work as intended by pressing it for 5 whole seconds to allow the user to send out an SMS to the community
 				centre. We gave it 5 seconds to allow the elderly to stop, should they accidentally press it. Then, we decided to add an LED that will trigger when the SMS is sent out to the community centre to let the elderly know
-				that the SMS has been sent out and received by the community centre. With the circuit completed, we decided to focus now on actualising the product.<br><br><br>
+				that the SMS has been sent out and received by the community centre. With the circuit completed, we decided to focus on making another circuit which was our door lock system.<br><br>
+				
+				Our door lock system will compose of a FMP10a fingerprint sensor, SPEEEduino, two LEDs(green and red) as well as a servo motor to act as the door lock module. It was hard to integrate the fingerprint sensor into 
+				the circuit as we both had no experience in configuring a fingerprint sensor. Eventually, we were able to make the enrollment system come alive and enrolled our fingerprint to be recorded. We tested it out with
+				an added servo motor to turn when the fingerprint sensor identifies and verifies our fingerprint. It was eventually a success! Hence, we got to work on actualising our product for the demo review for our CA3 
+				Presentation which was only due a few days away.<br><br>
+				
+				<img src="fingerprintcircuit.JPG" alt="Door Lock System Circuit" height="400px" width="600px"><br><br>
+				<img src="fingerprint on breadboard.jpg" alt="Door Lock System Breadboard" height="400px" width="600px"><br>
+				Our door lock system in testing stage on a breadboard.<br><br>
 				
 				<h2>Actualisation</h2><br>
 				I got to work on the Inventor drawings in order to make a 3D Printed casing and slot in order to store the ElderTrack system into a more secured storage. This will help to prevent any damage to be caused on the
@@ -72,15 +86,28 @@
 				Design Project that I took part recently in July, this year. We were both amazed by how far the project has been progressing yet we refused to let our excitement get over us and eventually focused all out to make
 				the system a completed one.<br><br>
 				
+				<img src="fingerprint.jpg" alt="Door Lock System Stripboard" height="400px" width="600px"><br>
+				Our Door Lock circuit after being soldered on a stripboard.<br><br>
+				<img src="fingerprint.jpg" alt="Door Lock System Stripboard" height="400px" width="600px"><br>
+				Our SMS system circuit after being soldered on a stripboard.<br><br>
+				
+				
 			    We reprinted the casing and slot again to allow a small hole to be attached at the top to allow light from the red LED to be seen as well as an extra slot at the casing due to an error made by me in forgetting to 
 				add an extra slot. The whole casing allowed us to store 1 9V Battery and our circuit that was soldered on a stripboard by Yanru. After testing our circuit on the casing, we quickly got to work on a small scale room
 				to demonstrate the door lock which was done by both me and Yanru. We hot glued the pieces of cardboard together to make a wall and the door mechanism was just done by folding the door to act as a hinge to slide open
 				and close. Yanru then filmed the demo video in her home, as I got to work on finalising the report and compiling the whole report and documentation together.<br><br>
 				
+				<img src="componenets insms.jpg" alt="Casing and Components" height="400px" width="600px"><br>
+				A disassembled view of our ElderTrack system.<br><br>
+				
+				
 				<h2>Finalising Everything</h2><br>
 				After a long journey of ups and downs, we finally came close to our project end and we were surprised that we learnt so much throughout this road. Learning a whole new entire field of engineering with little help on our
 				own was indeed a tough one. We persevered with what little we had and were able to make an IoT system that can be usable to help benefit the elderly who are living alone in their homes. 
 				We hope that this system can prove to be of help in the future to help benefit the elderly in the near future, hopefully, even get further actualised and be commercially viable!<br><br>
+				
+				<img src="overview.jpg" alt="Overall View" height="400px" width="600px"><br>
+				A final overall view of the ElderTrack System in its casing!<br><br><br>
 				
 				Below is our codes that we used to make the circuit, a video demo and PowerPoint slides of our ElderTrack System:<br>
 				<a href="DoorlockWithFingeprint.ino">Doorlock with Fingerprint Sensor Code</a><br><br>
